@@ -24,11 +24,11 @@ export const Container = styled.div`
             border-radius: 0.25rem;
 
             &:first-child{
-                color: var(--text-title)
-            };
+                color: var(--text-title);
+            }
 
             &.deposit{
-                color: var(--green)
+                color: var(--green);
             }
 
             &.withdraw{
