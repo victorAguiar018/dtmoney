@@ -4,7 +4,7 @@ import { Deshboard } from "./components/Deshboard";
 import { Header } from "./components/Header";
 import { NewTransactionModal } from './components/newTransactionModal';
 import { GlobalStyle } from "./styles/global";
-import { TransactionsContext, TransactionsProvider } from './TransactionsContext';
+import { TransactionsProvider } from './hooks/useTransactions';
 
 Modal.setAppElement('#root');
 
